@@ -1,0 +1,44 @@
+.Sector {
+  fill-opacity: 0.3;
+  stroke-width: 7;
+  stroke-opacity: 0.4;
+}
+
+.Sector--type-key {
+  stroke-opacity: 0.4;
+}
+
+.Sector--type-chord {
+  stroke-width: 7;
+}
+
+.Sector--quality-major {
+  fill: #92beff;
+  stroke: #2B80FC;
+}
+
+.Sector--quality-minor {
+  stroke: #ff2604;
+  fill: #fa8e7d;
+}
+
+.Sector--rank-primary {}
+
+.Sector--rank-secondary {
+  fill: none;
+}
+
+.Sector__step {
+  stroke: none;
+  text-anchor: middle;
+  font-size: 40px;
+  fill-opacity: 0.8;
+}
+
+.Sector__step--type-major {
+  fill: #2B80FC;
+}
+
+.Sector__step--type-minor {
+  fill: #fc3e2b;
+}
